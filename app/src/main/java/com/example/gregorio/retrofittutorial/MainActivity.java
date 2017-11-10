@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listView = (ListView) findViewById(R.id.lv_github_repos);
-        button = (Button) findViewById(R.id.button);
-        user = (EditText) findViewById(R.id.ed_user);
+        listView = findViewById(R.id.lv_github_repos);
+        button =  findViewById(R.id.button);
+        user =  findViewById(R.id.ed_user);
 
 
         OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
